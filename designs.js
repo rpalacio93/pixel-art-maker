@@ -15,7 +15,7 @@ gridSize.addEventListener('submit', (event) => {
 
 // Create grid depending on user input
 function makeGrid(height, width){
-  // Resets grid
+  // Resets grid when clicking "Submit"
   grid.innerHTML = "";
   for (let x = 0; x <= height - 1; x++){
     let row = grid.insertRow(x);
